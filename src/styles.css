@@ -1,0 +1,23 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  background: black;
+}
+
+#log {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 50vw;
+  height: 8em;
+  background: transparent;
+  z-index: 200;
+  color: yellow;
+  font-size: 4em;
+  overflow-y: hidden;
+  font-family: monospace;
+  opacity: 0.6;
+}

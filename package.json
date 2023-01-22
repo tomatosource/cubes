@@ -1,10 +1,15 @@
 {
   "name": "cubes",
   "repository": "https://github.com/tomatosource/cubes.git",
+  "scripts": {
+    "dev": "parcel src/index.html"
+  },
   "dependencies": {
     "three": "^0.148.0"
   },
   "devDependencies": {
-    "@types/three": "^0.148.0"
+    "@types/three": "^0.148.0",
+    "parcel": "^2.8.3",
+    "prettier": "^2.7.1"
   }
 }
