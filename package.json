@@ -1,4 +1,10 @@
 {
   "name": "cubes",
-  "repository": "https://github.com/tomatosource/cubes.git"
+  "repository": "https://github.com/tomatosource/cubes.git",
+  "dependencies": {
+    "three": "^0.148.0"
+  },
+  "devDependencies": {
+    "@types/three": "^0.148.0"
+  }
 }
